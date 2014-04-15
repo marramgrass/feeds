@@ -159,6 +159,7 @@
 		01F616F313AEAA2700EBB24E /* PreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F616F113AEAA2600EBB24E /* PreferencesController.xib */; };
 		01F64A2B14C2318B00AAABD7 /* BeanstalkAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F64A2A14C2318B00AAABD7 /* BeanstalkAccount.m */; };
 		01F7120714F9551700A32AB9 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7120614F9498000A32AB9 /* NSDate+TimeAgo.m */; };
+		4DDB2EFF18FDE00200AD815D /* AsanaAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB2EFE18FDE00200AD815D /* AsanaAccount.m */; };
 		F6155F9B173BFC270016C528 /* ZootoolAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F6155F9A173BFC270016C528 /* ZootoolAccount.m */; };
 		F6155FA2173BFD9A0016C528 /* Zootool.png in Resources */ = {isa = PBXBuildFile; fileRef = F6155F9C173BFD9A0016C528 /* Zootool.png */; };
 		F6155FA3173BFD9A0016C528 /* Zootool@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6155F9D173BFD9A0016C528 /* Zootool@2x.png */; };
@@ -389,6 +390,8 @@
 		01F64A2A14C2318B00AAABD7 /* BeanstalkAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BeanstalkAccount.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		01F7120514F9498000A32AB9 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
 		01F7120614F9498000A32AB9 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		4DDB2EFD18FDE00200AD815D /* AsanaAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsanaAccount.h; sourceTree = "<group>"; };
+		4DDB2EFE18FDE00200AD815D /* AsanaAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsanaAccount.m; sourceTree = "<group>"; };
 		F6155F99173BFC270016C528 /* ZootoolAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZootoolAccount.h; sourceTree = "<group>"; };
 		F6155F9A173BFC270016C528 /* ZootoolAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZootoolAccount.m; sourceTree = "<group>"; };
 		F6155F9C173BFD9A0016C528 /* Zootool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zootool.png; sourceTree = "<group>"; };
@@ -449,6 +452,8 @@
 				01BD35E1154D985200170BDD /* ZendeskAccount.m */,
 				01F2ABB415E176D400AE57F0 /* PivotalTrackerAccount.h */,
 				01F2ABB515E176D500AE57F0 /* PivotalTrackerAccount.m */,
+				4DDB2EFD18FDE00200AD815D /* AsanaAccount.h */,
+				4DDB2EFE18FDE00200AD815D /* AsanaAccount.m */,
 			);
 			name = Accounts;
 			sourceTree = "<group>";
@@ -972,6 +977,7 @@
 				0108CEE013BBA3AC0000ECE1 /* NSString+Base64.m in Sources */,
 				01D4A3BC13C434B400CE07CC /* NSURLRequest+Authorization.m in Sources */,
 				01C359B113C4B6C400D803BD /* HighriseAccount.m in Sources */,
+				4DDB2EFF18FDE00200AD815D /* AsanaAccount.m in Sources */,
 				01B2BE7313C4BBE900304D6A /* NSString+Truncated.m in Sources */,
 				01B2BE7713C4C39B00304D6A /* DribbbleAccount.m in Sources */,
 				01B2BE7A13C4E76400304D6A /* GithubAccount.m in Sources */,
